@@ -1,0 +1,8 @@
+
+
+Buffer Name Type Date Bucket BOH EOH Operation ID Operation Name
+340005577_01-at-FG_DC_RO_BCU_01 FxdProd: 20-12-16 1 73 73 
+340005577_01-at-FG_DC_RO_BCU_01 Deliver: 20-12-16 1 -18 55 AMT00117100001001 'Deliver-340005577_01-from-FG_DC_RO_BCU_01-201'
+
+
+Buffer

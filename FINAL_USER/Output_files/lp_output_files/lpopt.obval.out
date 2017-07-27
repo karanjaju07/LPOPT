@@ -1,0 +1,101 @@
+obval[InfeasCapacityOverload] (9) = 0.004689; cpu: 0:01:06.90
+obval[InfeasCapacityOverload] (9) pre-reopt = 0.000000; degradation = -0.004689
+obval[InfeasCapacityOverload] (0) pre-ls = 0.000000; degradation = -0.004689
+
+obval[Infeasibilities] (603) = 10688878.074000; cpu: 0:00:16.02
+obval[Infeasibilities] (603) pre-reopt = 10676428.044000; degradation = -12450
+obval[Infeasibilities] (349) pre-ls = 10676428.044000; degradation = -12450
+	Buffer infeas ( 952) =  21365306
+
+obval[res_surplus_usage] (41) = 3190050.000000; cpu: 0:00:06.26
+obval[res_surplus_usage] (41) pre-reopt = 0.000000; degradation = -3.19005e+006
+obval[res_surplus_usage] (41) pre-ls = 0.000000; degradation = -3.19005e+006
+
+obval[capacity_violation] (96) = 0.000000; cpu: 0:00:08.11
+obval[capacity_violation] (96) pre-reopt = 0.000000; degradation = 0
+obval[capacity_violation] (96) pre-ls = 0.000000; degradation = 0
+
+obval[max_safety_stock_violation[buffer.group(PLANT_PRODSHADE_BUFFERS)]] (4381) = 18599598.020000; cpu: 0:02:36.25
+obval[max_safety_stock_violation[buffer.group(PLANT_PRODSHADE_BUFFERS)]] (4381) pre-reopt = 1157498.082000; degradation = -1.74421e+007
+obval[max_safety_stock_violation[buffer.group(PLANT_PRODSHADE_BUFFERS)]] (4381) pre-ls = 1157498.082000; degradation = -1.74421e+007
+
+obval[max_safety_stock_violation[buffer.group(FGOPC_PRODSHADE_BUFFERS)]] (2917) = 1679050.062000; cpu: 0:00:39.40
+obval[max_safety_stock_violation[buffer.group(FGOPC_PRODSHADE_BUFFERS)]] (2917) pre-reopt = 122946.062000; degradation = -1.5561e+006
+obval[max_safety_stock_violation[buffer.group(FGOPC_PRODSHADE_BUFFERS)]] (3029) pre-ls = 122946.062000; degradation = -1.5561e+006
+
+obval[max_safety_stock_violation[buffer.group(PLANT_SKU_BUFFERS)]] (18019) = 0.000000; cpu: 0:04:45.15
+obval[max_safety_stock_violation[buffer.group(PLANT_SKU_BUFFERS)]] (18019) pre-reopt = 0.000000; degradation = 0
+obval[max_safety_stock_violation[buffer.group(PLANT_SKU_BUFFERS)]] (18019) pre-ls = 0.000000; degradation = 0
+
+obval[max_safety_stock_violation[buffer.group(FGOPC_SKU_BUFFERS)]] (10098) = 0.000000; cpu: 0:00:48.54
+obval[max_safety_stock_violation[buffer.group(FGOPC_SKU_BUFFERS)]] (10098) pre-reopt = 0.000000; degradation = 0
+obval[max_safety_stock_violation[buffer.group(FGOPC_SKU_BUFFERS)]] (10346) pre-ls = 0.000000; degradation = 0
+
+obval[max_safety_stock_violation[buffer.group(BHIVANDI_SKU_BUFFERS)]] (0) skipped
+
+obval[amt_not_satisfied["0"]] (3) = -4401.600000; cpu: 0:00:05.88
+obval[amt_not_satisfied["0"]] (3) pre-reopt = -562.010000; degradation = 3839.59
+obval[amt_not_satisfied["0"]] (3) pre-ls = -4401.600000; degradation = 1.81899e-012
+
+obval[amt_not_satisfied["1"]] (88398) = -103723104.293532; cpu: 0:00:15.45
+obval[amt_not_satisfied["1"]] (88398) pre-reopt = -81024348.547529; degradation = 2.26988e+007
+obval[amt_not_satisfied["1"]] (91129) pre-ls = -103723104.293532; degradation = 0
+
+obval[amt_not_satisfied["2"]] (88251) = -100454500.261003; cpu: 0:36:50.01
+obval[amt_not_satisfied["2"]] (88251) pre-reopt = -77778610.852568; degradation = 2.26759e+007
+obval[amt_not_satisfied["2"]] (91021) pre-ls = -100457547.851004; degradation = -3047.59
+
+obval[amt_not_satisfied["3"]] (88393) = -122539833.190890; cpu: 1:02:59.47
+obval[amt_not_satisfied["3"]] (88393) pre-reopt = -100218172.096414; degradation = 2.23217e+007
+obval[amt_not_satisfied["3"]] (91133) pre-ls = -122544516.818023; degradation = -4683.63
+
+obval[amt_not_satisfied["4"]] (88384) = -118528980.301006; cpu: 1:01:23.86
+obval[amt_not_satisfied["4"]] (88384) pre-reopt = -92901134.287662; degradation = 2.56278e+007
+obval[amt_not_satisfied["4"]] (91114) pre-ls = -118534064.698006; degradation = -5084.4
+
+obval[min_band_violation["1"]] (367802) = 194012173.703666; cpu: 0:03:46.30
+obval[min_band_violation["1"]] (367802) pre-reopt = 9031194490.000000; degradation = 8.83718e+009
+obval[min_band_violation["1"]] (378825) pre-ls = 182134076.986809; degradation = -1.18781e+007
+
+obval[min_band_violation["0"]] (365931) = 401180343.492409; cpu: 0:03:53.29
+obval[min_band_violation["0"]] (365931) pre-reopt = 3263931766.000000; degradation = 2.86275e+009
+obval[min_band_violation["0"]] (375114) pre-ls = 301089774.645597; degradation = -1.00091e+008
+
+obval[outsource_violations] (17) = 0.000000; cpu: 0:00:12.22
+obval[outsource_violations] (17) pre-reopt = 0.000000; degradation = 0
+obval[outsource_violations] (17) pre-ls = 0.000000; degradation = 0
+
+obval[alternates] (121939) = 3529448.127452; cpu: 0:01:00.98
+obval[alternates] (121939) pre-reopt = 876037.504708; degradation = -2.65341e+006
+obval[alternates] (123219) pre-ls = 3205959.379383; degradation = -323489
+
+obval[max_safety_stock_violation[buffer.group(DEPOT_SKU_BUFFERS)]] (441701) = 440656974.559880; cpu: 0:00:59.39
+obval[max_safety_stock_violation[buffer.group(DEPOT_SKU_BUFFERS)]] (441701) pre-reopt = 385434926.425873; degradation = -5.5222e+007
+obval[max_safety_stock_violation[buffer.group(DEPOT_SKU_BUFFERS)]] (450814) pre-ls = 440268765.899916; degradation = -388209
+
+obval[max_safety_stock_violation[buffer.group(RDC_SKU_BUFFERS)]] (89420) = 445221488.921045; cpu: 0:00:42.66
+obval[max_safety_stock_violation[buffer.group(RDC_SKU_BUFFERS)]] (89420) pre-reopt = 406783851.853461; degradation = -3.84376e+007
+obval[max_safety_stock_violation[buffer.group(RDC_SKU_BUFFERS)]] (92983) pre-ls = 444022802.405328; degradation = -1.19869e+006
+
+obval[max_safety_stock_violation[buffer.group(PLANT_INTERMEDIATE_BUFFERS)]] (777) = 177520538.641987; cpu: 0:00:54.94
+obval[max_safety_stock_violation[buffer.group(PLANT_INTERMEDIATE_BUFFERS)]] (777) pre-reopt = 174938825.785749; degradation = -2.58171e+006
+obval[max_safety_stock_violation[buffer.group(PLANT_INTERMEDIATE_BUFFERS)]] (777) pre-ls = 174938825.785749; degradation = -2.58171e+006
+
+obval[max_safety_stock_violation[buffer.group(FGOPC_INTERMEDIATE_BUFFERS)]] (528) = 5063895.557000; cpu: 0:00:20.88
+obval[max_safety_stock_violation[buffer.group(FGOPC_INTERMEDIATE_BUFFERS)]] (528) pre-reopt = 5063895.557000; degradation = 9.31323e-010
+obval[max_safety_stock_violation[buffer.group(FGOPC_INTERMEDIATE_BUFFERS)]] (536) pre-ls = 5063895.557000; degradation = 9.31323e-010
+
+obval[cost_optimization] (3420949) = 14611662432.555265; cpu: 0:08:59.35
+obval[cost_optimization] (3420949) pre-reopt = 12900461545.742369; degradation = -1.7112e+009
+obval[cost_optimization] (3469645) pre-ls = 14281317703.452089; degradation = -3.30345e+008
+	    	opCost	 26870419456
+	    	inventory	 705056960
+ 	    	inv in ops	 41651040
+ 		Total Cost =	 27617128448
+
+obval[inventory] (2577300) = 17364195236.127743; cpu: 0:00:35.80
+obval[inventory] (2577300) pre-reopt = 2413255859.610165; degradation = -1.49509e+010
+obval[inventory] (2630800) pre-ls = 17118711744.144447; degradation = -2.45483e+008
+
+obval[product_mix_violation] (0) skipped
+
