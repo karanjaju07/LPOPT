@@ -1,0 +1,37 @@
+LP Parser is a utility to split the LP files into individual csv sections. LPOpt analysts invest a lot of their time going through the LP input and output files in search of a few deviations. Our customer datasets being quite large make it really hard to scan through for any errors.
+This calls for the data to be stored in a different format which will help the analysts inspect the data faster.
+
+PRE_REQUESITES-
+The script requires Python v2.6 to be installed.Only inbuilt packages and libraries are used, so no other dependencies are required.
+ 
+LP parser essentially takes the LP input or LP output, and parses them into multiple csv's. 
+Lp_input.dat corresponds to the data that is written by the scp engine in a format the LP Optimizer can understand. LPopt works on this input data(LP_input.dat), finds the most optimal solution respecting the constraints defined and returns the output files in a folder called SolverData.
+Different sections in the LP_input.dat are separted by a ';'. The python script uses this as a delimiter to separate each section into a csv. The csv is named with the section name extracted as the string following set or param in the first line(excluding commented lines) following the ';'.
+The headers for the csv tables are extracted from the commented line containing "HEADER"(usually the 2nd line following the ; ).
+
+USAGE-
+The python script permits the following command line arguments-
+
+optional arguments:
+  -h, --help            					show this help message and exit
+  -i INPUT, --input INPUT 					LP Input file(optional)
+  -m MODE, --mode MODE					    i/input for input || o/output for output || io for both
+  -o OPTION, --option OPTION                Option file[with path]
+
+ 
+Mentioning the argument -h while calling the python script[python <script.py> -h] shows the user the list of command line arguments that can be defined.
+-m and -o are required arguements while the rest can be omitted.
+
+-OPTION FILE--->
+The option file,specified with the prefix -o, offers the user flexibilty to choose the sections for which the csv's are required. The input and output paths can also be specified in the option file.
+The parameters that are used in the option file need to be defined in <key->Value> pairs as shown below.
+
+The different parameters that are supported are 
+lp_input: Specifies the path to the lp_input.dat file
+csv_out:Specifies the path to the folder where the different LP input csv sections need to be written
+tables_req: Specifies the different sections that are required each separated by a comma
+LP_out_files_path: Specifies the path to the folder where the different LP output files are present
+Output_csv_path: Specifies the path where the csv's for the output files need to be written
+
+These key and value pair need to be delimited by "->", ie. the part before "->" delimiter corresponds to the key and the part after it is the value.
+
